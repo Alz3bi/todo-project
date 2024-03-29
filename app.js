@@ -17,7 +17,7 @@ var userprefix=""
 if (userGender == "male") {
     userprefix = "Mr"
 }
-else if(userGender == "Female"){
+else if(userGender == "female"){
     userprefix = "Ms"
 }
 
@@ -38,8 +38,8 @@ function askFunction(question){
     }
 }
 
-askFunction("1")
-askFunction("2")
-askFunction("3")
+askFunction("Is this your first time visiting this site?(yes/no)")
+askFunction("Do you like the new design of this site?(yes/no)")
+askFunction("Do you think i should add new styles to the About page?(yes/no)")
 
 answersArray.forEach((answer) => console.log(answer));
